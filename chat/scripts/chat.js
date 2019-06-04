@@ -24,17 +24,13 @@ function authStateObserver(user) {
   }
 }
 
-/* 
- *  Função para obter o conteúdo da mensagem que será enviada
- *	@return texto contido no textarea que será enviado
- */
+//Função para obter o conteúdo da mensagem que será enviada
 function getMessageInput(){
-	
+  $('#btt_send').click(function(){
+    var mensagemEnviada = $('textarea').val();
+    return mensagemEnviada;
+  });
   // Retornar o conteúdo que está dentro do elemento textarea.
-	// A utilização do comando RETURN é obrigatória.
-	// Por exemplo:
-	//     return document.getElementyById('message').value;
-
 }
 
 /* 
@@ -121,8 +117,3 @@ function displayMessage(data_message) {
   // Alterar a interface para mostrar a mensagem recebida
 
 }
-
-
-
-
-
