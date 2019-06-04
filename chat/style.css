@@ -1,0 +1,33 @@
+#corpo_principal{
+    border: 1px solid black;
+}
+
+#usuarios_ativos{
+    background: #70ec70;
+    height: 600px;
+}
+
+#rodape{
+    margin-top:50px;
+}
+
+#btt_send{
+    background: #7f7fbc;
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+#btt_send p {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#btt_send:hover{
+    background: green;
+}
+.centralizado {
+    margin-left: 5%;
+    margin-right: 5%;
+    //background:pink;
+}
